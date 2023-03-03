@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(103, 79, 170);
+}
+
+header{
+    background-color: rgb(129, 131, 228);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#procurar{
+    margin: 0;
+    border-radius: 20px 0 0 20px;
+    width: 200px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    padding: 10px;
+}
+
+header nav{
+    width: 800px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin: 15px;
+    color: rgb(0, 8, 83);
+    font-size: 10pt;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#nav2{
+    margin-top: 15px;
+}
+
+
+#banner{
+    width: 100%;
+}
+
+#banner img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+#text_banner{
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+#text_1{
+    font-size: 24pt;
+    background-color: rgb(0, 8, 83);
+    color: #fff;
+    font-family: 'Candal', sans-serif;
+}
+
+
+#logo{
+    width: 150px;
+}
+
+#logo img{
+    width: 125px;
+}
+
+#cor_diferente{
+    text-align: center;
+    color: rgb(34, 20, 114);
+    display: inline-block;
+}
+
+#nome_logo h1{
+    font-size: 18pt;
+}
+
+
+a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, rgb(0, 2, 145), rgb(106, 69, 243));
+    position: absolute;
+    top: 20px;
+    left: 0;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+a:hover::after{
+    width: 50px;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lupa{
+    width: 40px;
+    padding: 10px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+}
+
+
+#container{
+    margin: auto;
+    width: 960px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(255, 255, 255, 0.30);
+}
+
+#carnes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgb(233, 219, 219);
+    height: 390px;
+    width: 200px;
+    padding-top: 40px;
+    transition: background 1s;
+}
+
+.card:hover{
+    background: rgb(173, 173, 173);
+}
+
+
+.card img{
+    width: 80%;
+    height: 50%;
+}
+
+h3{
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 2, 145);
+}
+
+.card p{
+    margin-top: 15px;
+    font-size: larger;
+    font-size: 12pt;
+}
+
+#preco{
+    color: rgb(54, 35, 158);
+    margin-top: 16px;
+}
+
+#comprar{
+    border-radius: 15px;
+    background-image: linear-gradient(45deg, rgb(0, 2, 145), rgb(106, 69, 243));
+    width: 70%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-family: 'Candal', sans-serif;
+    font-size: 14pt;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    transition: background 1s;
+}
+
+#comprar:hover{
+    background: rgb(236, 236, 236);
+    color: black;
+}
+
+#margarinas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#graos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#temperos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#doces{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#bebidas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#higiene{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#legumes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#frutas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#peixes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+ol{
+    color: #fff;
+}
+
+.sociais button{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgb(0, 2, 145), rgb(106, 69, 243));
+}
+
+.sociais button i{
+    font-size: 30px;
+    color: #fff;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 150px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    border-radius: 15px 15px 0 0;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255, 0.30);
+}
+
+.formulario input{
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    width: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+}
+
+.formulario textarea{
+    border-radius: 15px;
+    background-color: #fff;
+    border: none;
+    width: 20%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+}
+
+.button-formulario{
+    width: 10%;
+    height: 25%;
+    font-size: 14pt;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    transition: 0.3s;
+}
+
+.button-formulario:hover{
+    background-color: rgb(0, 8, 83);
+    color: #fff;
+}
+
