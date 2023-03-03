@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+nav{
+    background: linear-gradient(#000, rgb(111, 0, 255));
+    color: #fff;
+    display: flex;
+    padding: 20px 30px;
+    font-size: 1.5em;
+    justify-content: space-around;
+}
+
+nav div{
+    width: 110px;
+}
+
+nav div a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+}
+
+nav div .logo{
+    font-size: 1em;
+    display: none;
+}
+
+figure{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+    border: 2px solid #000;
+}
+
+figure img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        margin-right: 5px;
+    }
+
+    #wrapper{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    nav{
+        width: 40%;
+        background: linear-gradient(#000, #f00);
+        margin-right: 5px;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: flex-start;
+    }
+
+    nav div{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    nav div .texto{
+        display: none;
+    }
+
+    nav div .logo{
+        display: block;
+    }
+
+    figure{
+        width: 100%;
+        border: none;
+        padding: 5px;
+    }
+
+    figcaption{
+        display: none;
+    }
+}
