@@ -1,0 +1,25 @@
+body{
+    background-color: #f5cc75;
+    font-size: 18pt;
+    font-family: Verdana;
+    margin: 0;
+}
+
+article{
+    background-color: rgb(224, 110, 110);
+    width: 500px;
+    margin: 0 auto;
+    border: 2px dashed #000000;
+    padding: 30px;
+    border-radius: 75px 15px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
